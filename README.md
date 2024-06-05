@@ -2,7 +2,7 @@
 Si ya hay una partición EFI de otro OS, se puede usar una partición btrfs y con calamares elegir la opción de reemplazar partición (se perderá el contenido de la partición btrfs), el instalador la usará automáticamente sin borrar la partición EFI sin afectar al otro OS y el dual boot.
 ## Paquetes
 ```
-sudo dnf install shairport-sync btop ripgrep duperemove syncthing input-remapper tldr evtest
+sudo dnf install shairport-sync btop ripgrep duperemove syncthing input-remapper tldr evtest trash-cli
 ```
 ```
 flatpak install org.keepassxc.KeePassXC com.brave.Browser md.obsidian.Obsidian org.gnome.World.PikaBackup com.usebottles.bottles org.kde.haruna it.mijorus.gearlever
