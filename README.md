@@ -19,10 +19,14 @@ brew install zsh zinit fzf oh-my-posh zoxide
 ```
 systemctl --user enable --now syncthing.service
 ```
-## Instalar fuentes de Windows
+## Instalar fuentes
 Desde una instalación de Windows copiar fuentes desde `Windows/Fonts` hacia:
 ```
-~/.local/share/fonts
+mkdir ~/.local/share/fonts/Windows
+```
+Descomprimir Nerd Font y pegar en la misma carpeta:
+```
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
 ```
 Ver si el sistema las reconoce con:
 ```
