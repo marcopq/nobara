@@ -7,6 +7,14 @@ sudo dnf install shairport-sync btop ripgrep duperemove syncthing input-remapper
 ```
 flatpak install org.keepassxc.KeePassXC com.brave.Browser md.obsidian.Obsidian org.gnome.World.PikaBackup com.usebottles.bottles org.kde.haruna it.mijorus.gearlever
 ```
+### Homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Seguir pasos instrucciones luego de la instalación (editar .bashrc).
+```
+brew install zsh zinit fzf oh-my-posh zoxide
+```
 ## Servicios
 ```
 systemctl --user enable --now syncthing.service
